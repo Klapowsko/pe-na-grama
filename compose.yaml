@@ -1,6 +1,6 @@
 services:
   mongodb:
-    image: mongo:7.0-alpine
+    image: mongo:latest
     container_name: penagrama-db
     environment:
       MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USERNAME}
